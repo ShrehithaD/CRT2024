@@ -1,0 +1,18 @@
+#include <stdio.h>
+
+int main() {
+    int a=2;
+    switch(a)
+    {
+        case 1:
+        printf("java");
+        case 2:
+        printf("python");
+        break;
+        case 3:
+        printf("fortan");
+        default:
+        printf("invalid");
+    }
+    return 0;
+}
