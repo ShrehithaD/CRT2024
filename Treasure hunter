@@ -1,0 +1,18 @@
+#include <stdio.h>
+#include <string.h>
+#include <math.h>
+#include <stdlib.h>
+
+int main() {
+
+    int ncg,benper,bbper;
+    scanf("%d%d%d",&ncg,&benper,&bbper);
+    int ben_share=ncg*benper/100;
+    ncg=ncg-ben_share;
+    int bb_share=ncg*bbper/100;
+    ncg=ncg-bb_share;
+    int p_share=ncg/3;
+    printf("%d\n%d\n%d\n",ben_share,bb_share,p_share);
+    
+    return 0;
+}
