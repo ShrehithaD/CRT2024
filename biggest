@@ -1,0 +1,14 @@
+#include <stdio.h>
+#include <math.h>
+int main() {
+    int a=15,b=16;
+    if(a>b&&++b)
+    {
+        printf("hi");
+    }
+    else
+    {
+        printf("%d",b);
+    return 0;
+} 
+}
